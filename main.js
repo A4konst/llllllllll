@@ -19,12 +19,12 @@ const tecla= listaDeTeclas[contador];
     console.log(instrument);
 
 const idAudio=`#som_${instrumento}`;
-
+console.log(idAudio)
 
 
     tecla[contador] .onclick =function(){
 
-        tocaSom(‘#som_tecla_pom’);
+        tocaSom(idAudio);
 
     }
 
